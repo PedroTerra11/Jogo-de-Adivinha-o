@@ -1,8 +1,8 @@
-let aleatorio = Math.floor(Math.random() * 10 + 1);
+let aleatorio = Math.floor(Math.random() * 100 + 1);
 let tentativas = 0;
 let tentativasMax = 30;
 
-console.log("Digite um número inteiro!")
+console.log("Digite um número inteiro de 100 a 200!")
 
 process.stdin.on("data", function(data){
     let entrada = data.toString().trim();
